@@ -1,0 +1,89 @@
+.mainButton {
+  position: relative;
+  background: var(--gold-background);
+  color: var(--white-color);
+  height: var(--button-height);
+  border-radius: var(--button-radius);
+  padding: var(--button-padding);
+  display: inline-flex;
+  justify-content: center;
+  font-weight: var(--fontweight-400);
+  align-items: center;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  font-size: var(--normal-fontsize);
+  flex: none;
+  border: none;
+  text-transform: uppercase;
+  z-index: 10;
+  overflow: hidden;
+}
+
+.mainButton::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: var(--button-radius);
+  bottom: 0;
+  right: 0;
+  background: var(--dark-background);
+  z-index: -1;
+  transform: translateX(-150%);
+  will-change: transform;
+  transition: transform 0.3s ease;
+}
+
+.mainButton:hover::before {
+  transform: translateX(0);
+}
+
+/* ************************************** */
+
+.textButton {
+  text-transform: uppercase;
+  align-items: center;
+  gap: 15px;
+  font-weight: var(--fontweight-400);
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  flex: none;
+  font-size: var(--body-fontsize);
+  color: var(--dark-text);
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.textButton:hover {
+  gap: 10px;
+}
+
+/* ******************************************** */
+
+.darkButton {
+  background: var(--dark-background);
+  color: var(--white-color);
+  border: none;
+  height: var(--button-height);
+  padding: var(--button-padding);
+  font-size: var(--normal-fontsize);
+  border-radius: var(--button-radius);
+  cursor: pointer;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  flex: none;
+  white-space: nowrap;
+  transition: background 0.3s;
+}
+
+.darkButton:hover {
+  background-color: #444;
+}

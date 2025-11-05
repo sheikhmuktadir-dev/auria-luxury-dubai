@@ -1,0 +1,22 @@
+.section {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+
+.noSectionPadding {
+  padding: 0;
+}
+
+.sectionPaddingLarge {
+  padding: var(--section-largepadding);
+}
+
+.sectionPaddingBottom {
+  padding: var(--section-bottompadding);
+}
+
+.sectionPaddingTop {
+  padding: var(--section-toppadding);
+}

@@ -1,0 +1,108 @@
+.contactLargeBox {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  background: var(--cream-background-100);
+  border-radius: 20px;
+  padding: var(--contact-box-padding);
+  gap: var(--contact-gap);
+  display: grid;
+  align-items: start;
+  grid-template-columns: var(--contact-grid);
+}
+
+.contactLargeBoxAddress {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  background: var(--dark-background);
+  padding: var(--contact-address-padding);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contactLargeBoxFormGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--contact-from-grid);
+  gap: 20px;
+  padding: 40px 0 0;
+}
+
+.contactLargeBoxFormArea {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactLargeBoxFormArea:nth-child(5) {
+  grid-column: 1 / -1;
+}
+
+.formLabel {
+  position: relative;
+  font-size: var(--normal-fontsize);
+  text-transform: uppercase;
+}
+
+.formBox {
+  position: relative;
+  padding: 10px 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+.formBox:focus {
+  outline: none;
+  border-bottom: 1px solid var(--border-gray);
+}
+
+input::placeholder,
+textarea::placeholder {
+  font-size: var(--normal-fontsize);
+}
+
+.contactLargeBoxBtnArea {
+  position: relative;
+  display: flex;
+  width: 100%;
+  grid-column: 1 / -1;
+  justify-content: end;
+  padding: 20px 0 0;
+}
+
+.contactLargeBoxAddressFlex {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contactLargeBoxAddressArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.contactMap {
+  height: var(--contact-map-height);
+  filter: grayscale(50%);
+}
+
+@media (max-width: 767.98px) {
+  .contactLargeBoxAddress {
+    gap: 30px;
+  }
+
+  .contactLargeBoxBtnArea {
+    justify-content: start;
+  }
+
+  .contactLargeBoxAddressFlex {
+    gap: 10px;
+  }
+}

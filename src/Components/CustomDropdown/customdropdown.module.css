@@ -1,0 +1,78 @@
+.dropdownMain {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}
+
+.dropdownButton {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  background: var(--cream-background);
+  padding: var(--dropdown-padding);
+  font-size: var(--normal-fontsize);
+  display: inline-flex;
+  flex: none;
+  line-height: 1;
+  white-space: nowrap;
+  align-items: center;
+  border-radius: var(--dropdown-button-radius);
+  justify-content: space-between;
+  cursor: pointer;
+  color: var(--dark-text);
+}
+
+.dropdownBox {
+  position: absolute;
+  max-width: 100%;
+  background: var(--cream-background);
+  width: 100%;
+  z-index: 100;
+  padding: var(--dropdown-box-padding);
+  top: 100%;
+  border-radius: var(--dropdown-box-radius);
+  margin: 10px 0 0;
+  box-shadow: var(--dropdown-box-shadow);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease-in, visibility 0.2s ease-in;
+}
+
+.dropdownBoxShow {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdownList {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  text-align: start;
+  position: relative;
+  gap: 10px;
+  max-height: var(--dropdown-box-height);
+  overflow-y: auto;
+}
+
+.dropdownList::-webkit-scrollbar {
+  width: 4px;
+}
+
+.dropdownList::-webkit-scrollbar-thumb {
+  background: var(--gray-background);
+  border-radius: 10px;
+}
+
+.dropdownItem {
+  color: var(--dark-text);
+  width: 100%;
+  padding: 5px;
+  cursor: pointer;
+  text-align: start;
+  position: relative;
+  font-size: var(--normal-fontsize);
+}
+
+.dropdownItem:hover {
+  background: var(--gray-background);
+}

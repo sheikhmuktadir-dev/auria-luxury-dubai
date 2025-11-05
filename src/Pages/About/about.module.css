@@ -1,0 +1,39 @@
+.aboutHeadingTop {
+  position: relative;
+  max-width: var(--aboutheading-width);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.aboutBgImage {
+  position: relative;
+  height: var(--aboutbgimage-height);
+  max-width: 100%;
+  width: 100%;
+  background: url(/images/other/aboutbg.webp);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.aboutDetails {
+  position: relative;
+  padding: var(--section-largepadding);
+  background: var(--cream-background-100);
+}
+
+.aboutDetailsGrid {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--aboutdetails-grid);
+  gap: var(--aboutdetails-gap);
+}
+
+.aboutDetailsGridPara {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}

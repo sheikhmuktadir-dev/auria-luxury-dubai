@@ -1,0 +1,41 @@
+{
+  "navbar": {
+    "logo": {
+      "link": "/",
+      "image": "/images/logo/logo.png"
+    },
+    "menu": {
+      "centerMenu": [
+        {
+          "label": "Home",
+          "link": "/"
+        },
+        {
+          "label": "Properties",
+          "link": "/properties"
+        },
+        {
+          "label": "About us",
+          "link": "/about"
+        },
+
+        {
+          "label": "Contact Us",
+          "link": "/contact"
+        }
+      ],
+      "rightMenu": [
+        {
+          "label": "+971 50 123 4567",
+          "type": "phone",
+          "link": "tel:+971501234567"
+        },
+        {
+          "label": "Enquire Now",
+          "type": "button",
+          "link": "/contact"
+        }
+      ]
+    }
+  }
+}

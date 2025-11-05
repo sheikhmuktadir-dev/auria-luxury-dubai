@@ -1,0 +1,38 @@
+.testimonialCard {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid var(--border-gray);
+  text-align: center;
+  border-radius: 20px;
+  padding: var(--testimonial-padding);
+  min-height: var(--testimonial-height);
+}
+
+.testimonialCardStar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--gold-color);
+}
+
+.testimonialCardFlex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.testimonialIcon {
+  position: absolute;
+  font-size: var(--very-large-fontsize);
+  z-index: -1;
+  opacity: 0.1;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

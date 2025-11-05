@@ -1,0 +1,27 @@
+.breadcrumb {
+  position: relative;
+  padding: var(--breadcrumb-padding);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.breadcrumbLink {
+  color: var(--dark-color);
+  font-weight: var(--fontweight-400);
+  position: relative;
+  font-size: var(--normal-fontsize);
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+
+.breadcrumbLink.breadcrumbLinkActive {
+  position: relative;
+  font-weight: var(--fontweight-600);
+}
+
+@media (max-width: 767.98px) {
+  .breadcrumb {
+    flex-wrap: wrap;
+  }
+}

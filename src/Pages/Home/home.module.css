@@ -1,0 +1,283 @@
+.heroInner {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* hero search area */
+.heroSearch {
+  position: var(--hero-search-position);
+  bottom: var(--hero-search-location);
+  z-index: 100;
+  max-width: 100%;
+  width: 100%;
+}
+
+/* bg image */
+.heroBgImage {
+  position: relative;
+  z-index: 30;
+  height: var(--hero-image-height);
+  max-width: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* bg image overylay */
+.heroBgImage:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  bottom: 0;
+  background: var(--hero-image-overlay);
+}
+
+/* main image */
+.heroImage {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--hero-image-objectposition);
+}
+
+/* hero content */
+.heroContent {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  padding: var(--hero-content-padding);
+  height: 100%;
+  gap: var(--hero-content-gap);
+  display: grid;
+  grid-template-columns: var(--hero-content-gridcolumns);
+  z-index: 100;
+}
+
+.heroHeadingArea {
+  position: relative;
+  width: 100%;
+}
+
+/* hero title */
+.heroTitle {
+  font-size: var(--very-large-fontsize);
+  text-transform: uppercase;
+  font-family: var(--large-heading-fontfamily);
+  line-height: 1;
+  position: relative;
+  font-weight: var(--fontweight-500);
+}
+
+/* ==================================================================================== hero end ======================================================================== */
+
+/* location deshtop card area  */
+.locationFlexArea {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+/* location mobile and tablet card area */
+.locationFlexMobileArea {
+  display: none;
+}
+
+/* ==================================================================================== location end ======================================================================== */
+
+.featurePropertyInner {
+  position: relative;
+  padding: var(--section-largepadding);
+  background: var(--cream-background-100);
+}
+
+.featuredPropertiesArea,
+.latestPropertiesArea {
+  position: relative;
+}
+
+/* ==================================================================================== feature property end ======================================================================== */
+
+.aboutInner {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  height: var(--about-height);
+  border-radius: var(--about-radius);
+}
+
+.aboutImageArea {
+  position: absolute;
+  z-index: 0;
+  max-width: 100%;
+  border-radius: var(--about-radius);
+  width: 100%;
+  height: 100%;
+}
+
+.aboutImageArea::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--about-radius);
+  background: var(--about-overlay);
+}
+
+.aboutImage {
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--about-radius);
+}
+
+.aboutContent {
+  position: relative;
+  z-index: 50;
+  max-width: var(--about-content-width);
+  padding: var(--about-padding);
+  display: flex;
+  height: 100%;
+  gap: var(--about-content-gap);
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aboutContentTop {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* ******************************************************************************************** about end ******************************************************************** */
+
+.whyChooseBoxArea {
+  position: relative;
+  display: grid;
+  gap: var(--whyus-column-gap);
+  grid-template-columns: var(--whyus-gridcolumn);
+}
+
+.whyChooseBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 20px;
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-radius 0.3s ease;
+}
+
+.whyChooseBoxIcon {
+  font-size: var(--whyus-iconsize);
+  color: var(--gold-color);
+}
+
+.whyChooseBox:hover {
+  border-radius: var(--whyus-radius);
+  transform: translateY(-8px);
+  box-shadow: var(--whyus-shadow);
+}
+
+/* ******************************************************************************************** whyus end ******************************************************************** */
+
+.getInTouchInner {
+  position: relative;
+  height: var(--getintouch-height);
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
+.getInTouchBgImageArea {
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.getInTouchBgImageArea::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 20;
+  background: var(--getintouch-overlay);
+}
+
+.getInTouchImage {
+  object-fit: cover;
+  object-position: center center;
+  width: 100%;
+  height: 100%;
+}
+
+.getInTouchContent {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  justify-content: space-between;
+  z-index: 50;
+}
+
+.btnArea {
+  position: relative;
+}
+
+@media (max-width: 767.98px) {
+  .locationFlexArea {
+    display: none;
+  }
+
+  .locationFlexMobileArea {
+    display: block;
+  }
+
+  .getInTouchContent {
+    padding: 30px 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .locationFlexArea {
+    display: none;
+  }
+
+  .locationFlexMobileArea {
+    display: block;
+  }
+
+  .getInTouchContent {
+    padding: 50px 0;
+  }
+}

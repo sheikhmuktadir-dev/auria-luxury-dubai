@@ -1,0 +1,182 @@
+.navbarMain {
+  position: var(--nav-position);
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--nav-zindex);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: var(--nav-height);
+  padding: 0;
+  transition: all 0.3s ease-in;
+  box-shadow: none;
+}
+
+/* when navbar scrolled */
+.navbarMainScrolled {
+  background: var(--cream-background);
+  box-shadow: var(--nav-shadow);
+}
+
+/* nav inner */
+.navbarInner {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  gap: 60px;
+  width: 100%;
+}
+
+/* ***************** navbar logo area start */
+.navbarLogoArea {
+  position: relative;
+}
+
+.navbarLogoLink {
+  position: relative;
+}
+
+.navbarLogoImage {
+  position: relative;
+  max-width: var(--nav-logo-width);
+}
+
+/* toggle btn */
+.navbarToggleButton {
+  display: none;
+}
+
+/* *********************** navbar menu area*/
+
+.navbarMenuArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+/* navbar menu X icon */
+.navbarCloseMenu {
+  display: none;
+}
+
+/* ***********************  navbar center menu */
+
+.navbarCenterMenu {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex: 1;
+}
+
+/* ul */
+.navbarMenuList {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: var(--nav-menu-gap);
+}
+
+/* li */
+.navbarMenuItem {
+  position: relative;
+}
+
+.navbarMenuLink {
+  position: relative;
+  color: var(--dark-text);
+  line-height: 1;
+  white-space: nowrap;
+  font-size: var(--navbar-link-fontsize);
+  font-weight: var(--fontweight-600);
+}
+
+.navbarMenuLinkActive {
+  color: var(--gold-color);
+}
+
+/* *********************** navbar right area*/
+
+.navbarRightMenu {
+  position: relative;
+}
+
+@media (max-width: 1023.98px) {
+  .navbarMenuArea {
+    position: var(--nav-position);
+    top: 0;
+    left: 0;
+    min-height: var(--nav-mobile-menuheight);
+    flex: none;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    background: var(--dark-background);
+    z-index: var(--nav-mobile-menuzindex);
+    opacity: 0;
+    transform: translateX(150%);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+
+  .navbarInner {
+    gap: 0;
+  }
+
+  .navbarMenuAreaShow {
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .navbarCenterMenu {
+    flex: none;
+    flex-direction: column;
+  }
+
+  .navbarMenuList {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .navbarMenuLink {
+    color: var(--white-color);
+  }
+
+  .navbarLogoArea {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+  }
+
+  .navbarToggleButton {
+    position: relative;
+    display: block;
+    background: transparent;
+    color: var(--dark-text);
+    font-size: var(--nav-mobile-toggle-fontsize);
+    border: none;
+  }
+
+  .navbarCloseMenu {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: block;
+    background: transparent;
+    border: none;
+    color: var(--white-color);
+    font-size: var(--nav-mobile-toggle-fontsize);
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  .navbarInner {
+    gap: 30px;
+  }
+}

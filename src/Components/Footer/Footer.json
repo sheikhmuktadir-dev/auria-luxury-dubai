@@ -1,0 +1,22 @@
+{
+  "logo": "/images/logo/logo.png",
+  "address": " Building 11 - Office 605 - Business Bay - Bay Square - Dubai - United Arab Emirates",
+  "menus": [
+    { "label": "Home", "url": "/" },
+    { "label": "Properties", "url": "/properties" },
+    { "label": "About us", "url": "/about" },
+    { "label": "Contact us", "url": "/contact" }
+  ],
+  "legal": [
+    { "label": "Privacy Policy", "url": "/" },
+    { "label": "Terms of Service", "url": "/" },
+    { "label": "FAQs", "url": "/" }
+  ],
+  "social": [
+    { "label": "Facebook", "url": "/" },
+    { "label": "Instagram", "url": "/" },
+    { "label": "Twitter", "url": "/" },
+    { "label": "Youtube", "url": "/" }
+  ],
+  "copyright": "Copyright © 2025 Auria, All Rights Reserved."
+}

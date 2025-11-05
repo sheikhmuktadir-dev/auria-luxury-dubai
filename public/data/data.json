@@ -1,0 +1,1573 @@
+{
+  "hero": {
+    "heroImage": "/images/hero/hero.webp",
+    "heroTitle": "Find Your Perfect Dubai Home Today",
+    "heroPara": "Explore verified listings of apartments, villas, and penthouses across Dubai. Transparent buying support, expert local guidance, and properties tailored to your lifestyle and investment goals."
+  },
+
+  "searchOptions": {
+    "locations": [
+      "Any Location",
+      "Downtown Dubai",
+      "Dubai Marina",
+      "Palm Jumeirah",
+      "Business Bay",
+      "Dubai Hills Estate"
+    ],
+    "propertyTypes": [
+      "Any Type",
+      "Apartment",
+      "Villa",
+      "Penthouse",
+      "Townhouse",
+      "Duplex",
+      "Mansion"
+    ],
+    "option": ["Any", "Buy", "Rent"],
+    "priceRange": [
+      "Any Price",
+      "Under AED 2M",
+      "AED 2M - 5M",
+      "AED 5M - 10M",
+      "AED 10M - 20M",
+      "AED 20M - 50M",
+      "Over AED 50M"
+    ]
+  },
+
+  "whyus": {
+    "heading": {
+      "subTitle": "Why You Should Choose Us",
+      "title": "Dubai’s Trusted Luxury Real Estate Experts"
+    },
+    "cards": [
+      {
+        "icon": "GoHome",
+        "title": "Buy Your Dream Home",
+        "description": "Discover exclusive properties that match your lifestyle, taste, and budget — guided by our expert team every step of the way."
+      },
+      {
+        "icon": "FiSearch",
+        "title": "Wide Range of Properties",
+        "description": "From luxury estates to budget-friendly apartments, we offer an extensive selection of homes, ensuring you have plenty of options to choose from."
+      },
+      {
+        "icon": "VscWorkspaceTrusted",
+        "title": "Trusted by Thousands",
+        "description": "Our reputation speaks for itself! We have helped countless clients find their ideal homes, earning trust through our dedication, transparency, and exceptional service."
+      }
+    ]
+  },
+
+  "about": {
+    "image": "/images/about/about.webp",
+    "heading": "Your Trusted Partner in Dubai Real Estate",
+    "description": "Connecting you to Dubai’s finest homes with expert guidance and effortless buying.",
+    "button": {
+      "label": "Learn More About Us",
+      "link": "/about"
+    },
+    "aboutHeading": {
+      "title": "About Auria Group",
+      "description": "Discover your ideal home with Auria Group. From stylish apartments to exclusive villas, our platform helps you find, buy, or rent properties in the most sought-after communities with ease."
+    },
+
+    "aboutDetails": {
+      "heading": "Find Your Perfect Home in Dubai",
+      "paragraphs": [
+        "Founded in Dubai in 2022, Auria is a modern real estate platform dedicated to helping individuals and families find their perfect home. Whether you are buying your first apartment, searching for a luxurious villa, or exploring rental opportunities, Auria provides a seamless and transparent experience to make your journey effortless.",
+        "Our goal is to simplify every step of the property search process — from browsing listings to closing deals — by offering verified properties, clear information, and trusted connections. We aim to bridge the gap between buyers, tenants, and property owners across Dubai’s most desirable neighborhoods and emerging communities.",
+        "Built on a foundation of trust, innovation, and customer satisfaction, Auria continues to redefine how people discover real estate opportunities in the UAE. With our commitment to quality listings and an exceptional user experience, we are creating a smarter, faster, and more enjoyable way to find homes and investment properties in Dubai."
+      ]
+    }
+  },
+
+  "getInTouch": {
+    "backgroundImage": "/images/other/bg.webp",
+    "heading": "Get in Touch to Find Your Perfect Home",
+    "description": "Looking for your next home? Our experts are ready to assist you.",
+    "buttonText": "Request a Callback"
+  },
+
+  "locations": {
+    "locationsSubtitle": "Prime Dubai Locations",
+    "locationsTitle": "Discover Dubai’s finest neighborhoods",
+    "locationCard": [
+      {
+        "image": "/images/location/downtown.webp",
+        "locationName": "Downtown Dubai"
+      },
+      {
+        "image": "/images/location/marina.webp",
+        "locationName": "Dubai Marina"
+      },
+      {
+        "image": "/images/location/palm.webp",
+        "locationName": "Palm Jumeirah"
+      },
+      {
+        "image": "/images/location/Business.webp",
+        "locationName": "Business Bay"
+      },
+      {
+        "image": "/images/location/Hills.webp",
+        "locationName": "Dubai Hills Estate"
+      }
+    ]
+  },
+
+  "contact": {
+    "contactInfo": [
+      {
+        "type": "Address",
+        "details": "Building 11 - Office 605 - Business Bay - Bay Square - Dubai - United Arab Emirates"
+      },
+      {
+        "type": "Call Us",
+        "details": "+971 50 123 4567",
+        "link": "+971501234567"
+      },
+      {
+        "type": "Email ID",
+        "details": "info@auriastate.com",
+        "link": "info@auriastate.com"
+      }
+    ],
+    "form": {
+      "title": "Get in touch with us",
+      "fields": [
+        {
+          "label": "First Name",
+          "name": "firstName",
+          "type": "text",
+          "placeholder": "John"
+        },
+        {
+          "label": "Last Name",
+          "name": "lastName",
+          "type": "text",
+          "placeholder": "Dou"
+        },
+        {
+          "label": "Email",
+          "name": "email",
+          "type": "text",
+          "placeholder": "example@gmail.com"
+        },
+        {
+          "label": "Contact Number",
+          "name": "contactNumber",
+          "type": "text",
+          "placeholder": "+91 4336 3463"
+        },
+        {
+          "label": "Message",
+          "name": "message",
+          "type": "textarea",
+          "placeholder": "Enter your message here..."
+        }
+      ],
+      "buttonText": "Submit Now"
+    },
+    "map": {
+      "src": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d462146.5355544987!2d55.280188!3d25.185687!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f69d4b3566553%3A0xd7b659fbd3123d39!2sBay%20Square%20by%20Dubai%20Retail!5e0!3m2!1sen!2sus!4v1761936461342!5m2!1sen!2sus"
+    }
+  },
+
+  "testimonials": [
+    {
+      "id": 1,
+      "quote": "Found my dream apartment in Dubai within minutes — Auria’s filters made the search effortless and surprisingly fun.",
+      "name": "Sarah M.",
+      "role": "Buyer, Dubai"
+    },
+    {
+      "id": 2,
+      "quote": "Sold my Dubai condo in under ten days — smooth process, verified buyers, and zero wasted time. Truly impressive.",
+      "name": "Raj P.",
+      "role": "Seller, Dubai"
+    },
+    {
+      "id": 3,
+      "quote": "Explored every Dubai property through 3D tours and sealed the deal remotely — modern real estate made simple.",
+      "name": "Emily Chen",
+      "role": "Investor, Dubai"
+    },
+    {
+      "id": 4,
+      "quote": "Moved into my new Dubai rental within a week — Auria’s listings were accurate, fast, and easy to navigate.",
+      "name": "Carlos R.",
+      "role": "Renter, Dubai"
+    }
+  ],
+  "properties": {
+    "propertiesTitle": "Latest Properties",
+    "propertiesSubtitle": "Explore Exclusive Homes Across Top Areas",
+    "latestCta": "All Properties",
+    "propertiesfeaturedTitle": "Featured Properties",
+    "propertiesfeaturedSubtitle": "Curated Luxury Homes Across Dubai",
+    "featureCta": "View More",
+    "propertyCard": [
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.166!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4340b8f8a8b1%3A0x9c8f8f8f8f8f8f8f!2sDowntown%20Dubai!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DT-APT-01",
+        "title": "Burj Vista Studio",
+        "description": "Cozy studio in the heart of Downtown Dubai, steps away from Burj Khalifa.",
+        "type": "Apartment",
+        "transactionType": "Rent",
+        "price": "90,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Burj Vista, Downtown Dubai",
+          "neighborhood": "Downtown Dubai",
+          "coordinates": { "lat": 25.196, "lng": 55.274 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property1.webp",
+            "alt": "Burj Vista exterior",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room1.webp",
+            "alt": "Modern studio interior"
+          },
+          {
+            "name": "/images/property/hall/hall1.webp",
+            "alt": "Kitchen & living area"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 2,
+        "size": { "sqft": 500, "sqm": 46 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Gym", "Pool", "Parking", "Concierge"],
+        "features": ["Fountain View", "High Floor"],
+        "agent": {
+          "image": "/images/agents/LaylaHassan.webp",
+          "name": "Layla Hassan",
+          "phone": "+971504567890",
+          "email": "layla@realtydubai.com",
+          "whatsapp": "+971504567890"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-18",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.8!2d55.139!3d25.0762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f142c1c1c1c1c%3A0x1c1c1c1c1c1c1c1c!2sDubai%20Marina!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DM-PEN-01",
+        "title": "Princess Tower Penthouse",
+        "description": "Exclusive penthouse with 360° views of Dubai Marina and Arabian Gulf.",
+        "type": "Penthouse",
+        "transactionType": "Buy",
+        "price": "18,000,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Princess Tower, Dubai Marina",
+          "neighborhood": "Dubai Marina",
+          "coordinates": { "lat": 25.077, "lng": 55.141 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property2.webp",
+            "alt": "Princess Tower penthouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room2.webp",
+            "alt": "Panoramic living room"
+          },
+          {
+            "name": "/images/property/hall/hall2.webp",
+            "alt": "Private infinity pool"
+          }
+        ],
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "size": { "sqft": 4800, "sqm": 446 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Gym", "Pool", "Spa", "Concierge"],
+        "features": ["360° View", "Private Pool", "Smart Home"],
+        "agent": {
+          "image": "/images/agents/SofiaAhmed.webp",
+          "name": "Sofia Ahmed",
+          "phone": "+971502223334",
+          "email": "sofia@realtydubai.com",
+          "whatsapp": "+971502223334"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-26",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5!2d55.138!3d25.1143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f130d0d0d0d0d%3A0xd0d0d0d0d0d0d0d0!2sPalm%20Jumeirah!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "PJ-VIL-01",
+        "title": "Frond Signature Villa",
+        "description": "Ultra-luxury villa with private beach and infinity pool on Palm Jumeirah.",
+        "type": "Villa",
+        "transactionType": "Rent",
+        "price": "3,500,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Frond N, Palm Jumeirah",
+          "neighborhood": "Palm Jumeirah",
+          "coordinates": { "lat": 25.112, "lng": 55.137 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property3.webp",
+            "alt": "Palm villa exterior",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room3.webp",
+            "alt": "Beachfront pool"
+          },
+          {
+            "name": "/images/property/hall/hall3.webp",
+            "alt": "Grand living hall"
+          }
+        ],
+        "bedrooms": 6,
+        "bathrooms": 8,
+        "size": { "sqft": 10000, "sqm": 928 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Private Beach", "Pool", "Gym", "Cinema"],
+        "features": ["Private Beach", "Garden", "Helipad"],
+        "agent": {
+          "image": "/images/agents/FatimaSaeed.webp",
+          "name": "Fatima Saeed",
+          "phone": "+971507894567",
+          "email": "fatima@realtydubai.com",
+          "whatsapp": "+971507894567"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-27",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0!2d55.271!3d25.1835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f590590590590%3A0x9059059059059059!2sBusiness%20Bay!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "BB-TH-01",
+        "title": "Canal Front Townhouse",
+        "description": "Modern townhouse with direct canal access and rooftop terrace.",
+        "type": "Townhouse",
+        "transactionType": "Buy",
+        "price": "4,200,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Canal Front, Business Bay",
+          "neighborhood": "Business Bay",
+          "coordinates": { "lat": 25.185, "lng": 55.274 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property4.webp",
+            "alt": "Canal townhouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room4.webp",
+            "alt": "Rooftop terrace"
+          },
+          {
+            "name": "/images/property/hall/hall4.webp",
+            "alt": "Modern kitchen"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "size": { "sqft": 2400, "sqm": 223 },
+        "furnished": "Unfurnished",
+        "amenities": ["Pool", "Gym", "Garden", "Parking"],
+        "features": ["Waterfront", "Rooftop", "Maid Room"],
+        "agent": {
+          "image": "/images/agents/MiraSaleh.webp",
+          "name": "Mira Saleh",
+          "phone": "+971505678901",
+          "email": "mira@realtydubai.com",
+          "whatsapp": "+971505678901"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-25",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5!2d55.257!3d25.112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f680680680680%3A0x8068068068068068!2sDubai%20Hills%20Estate!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DH-DUP-01",
+        "title": "Acacia Duplex",
+        "description": "Spacious duplex with golf course views in Dubai Hills Estate.",
+        "type": "Duplex",
+        "transactionType": "Rent",
+        "price": "180,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Acacia, Dubai Hills Estate",
+          "neighborhood": "Dubai Hills Estate",
+          "coordinates": { "lat": 25.111, "lng": 55.256 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property5.webp",
+            "alt": "Acacia duplex",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room5.webp",
+            "alt": "Double-height living"
+          },
+          {
+            "name": "/images/property/hall/hall5.webp",
+            "alt": "Golf view bedroom"
+          }
+        ],
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "size": { "sqft": 1500, "sqm": 139 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Pool", "Gym", "Park", "Golf Access"],
+        "features": ["Golf View", "Balcony", "High Ceilings"],
+        "agent": {
+          "image": "/images/agents/HassanMalik.webp",
+          "name": "Hassan Malik",
+          "phone": "+971506667778",
+          "email": "hassan@realtydubai.com",
+          "whatsapp": "+971506667778"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-22",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.166!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4340b8f8a8b1%3A0x9c8f8f8f8f8f8f8f!2sDowntown%20Dubai!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DT-MAN-01",
+        "title": "Burj Al Arab Mansion",
+        "description": "Iconic mansion near Burj Al Arab with private helipad and ocean views.",
+        "type": "Mansion",
+        "transactionType": "Buy",
+        "price": "85,000,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Burj Al Arab Road, Downtown Dubai",
+          "neighborhood": "Downtown Dubai",
+          "coordinates": { "lat": 25.194, "lng": 55.273 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property6.webp",
+            "alt": "Mansion exterior",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room6.webp",
+            "alt": "Grand entrance"
+          },
+          {
+            "name": "/images/property/hall/hall6.webp",
+            "alt": "Helipad view"
+          }
+        ],
+        "bedrooms": 7,
+        "bathrooms": 9,
+        "size": { "sqft": 15000, "sqm": 1393 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Helipad", "Cinema", "Spa", "Private Pool"],
+        "features": ["Ocean View", "Helipad", "Smart Home"],
+        "agent": {
+          "image": "/images/agents/KhalidNoor.webp",
+          "name": "Khalid Noor",
+          "phone": "+971507891234",
+          "email": "khalid@realtydubai.com",
+          "whatsapp": "+971507891234"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-10",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.8!2d55.139!3d25.0762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f142c1c1c1c1c%3A0x1c1c1c1c1c1c1c1c!2sDubai%20Marina!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DM-APT-01",
+        "title": "Marina Gate Studio",
+        "description": "Modern studio with marina view in Dubai Marina.",
+        "type": "Apartment",
+        "transactionType": "Rent",
+        "price": "120,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Marina Gate, Dubai Marina",
+          "neighborhood": "Dubai Marina",
+          "coordinates": { "lat": 25.0762, "lng": 55.1404 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property7.webp",
+            "alt": "Marina studio",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room7.webp",
+            "alt": "Living area"
+          },
+          {
+            "name": "/images/property/hall/hall7.webp",
+            "alt": "Marina view"
+          }
+        ],
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "size": { "sqft": 550, "sqm": 51 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Gym", "Pool", "Parking"],
+        "features": ["Marina View", "High Floor"],
+        "agent": {
+          "image": "/images/agents/AishaRahman.webp",
+          "name": "Aisha Rahman",
+          "phone": "+971501112223",
+          "email": "aisha@realtydubai.com",
+          "whatsapp": "+971501112223"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-20",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5!2d55.138!3d25.1143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f130d0d0d0d0d%3A0xd0d0d0d0d0d0d0d0!2sPalm%20Jumeirah!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "PJ-PEN-01",
+        "title": "One Palm Penthouse",
+        "description": "Sky-high penthouse with private beach access on Palm Jumeirah.",
+        "type": "Penthouse",
+        "transactionType": "Buy",
+        "price": "45,000,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "One Palm, Palm Jumeirah",
+          "neighborhood": "Palm Jumeirah",
+          "coordinates": { "lat": 25.113, "lng": 55.138 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property8.webp",
+            "alt": "One Palm penthouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room8.webp",
+            "alt": "Infinity pool"
+          },
+          {
+            "name": "/images/property/hall/hall8.webp",
+            "alt": "Sea view terrace"
+          }
+        ],
+        "bedrooms": 5,
+        "bathrooms": 6,
+        "size": { "sqft": 7000, "sqm": 650 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Private Beach", "Spa", "Gym", "Concierge"],
+        "features": ["Private Beach", "Infinity Pool", "Helipad"],
+        "agent": {
+          "image": "/images/agents/KarimAlMaktoum.webp",
+          "name": "Karim Al Maktoum",
+          "phone": "+971509876543",
+          "email": "karim@realtydubai.com",
+          "whatsapp": "+971509876543"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-15",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0!2d55.271!3d25.1835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f590590590590%3A0x9059059059059059!2sBusiness%20Bay!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "BB-VIL-01",
+        "title": "Bay Square Villa",
+        "description": "Modern villa with rooftop terrace in Business Bay.",
+        "type": "Villa",
+        "transactionType": "Rent",
+        "price": "1,100,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Bay Square, Business Bay",
+          "neighborhood": "Business Bay",
+          "coordinates": { "lat": 25.182, "lng": 55.271 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property9.webp",
+            "alt": "Bay villa",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room9.webp",
+            "alt": "Rooftop terrace"
+          },
+          {
+            "name": "/images/property/hall/hall9.webp",
+            "alt": "Modern kitchen"
+          }
+        ],
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "size": { "sqft": 6000, "sqm": 557 },
+        "furnished": "Semi-Furnished",
+        "amenities": ["Pool", "Gym", "Office", "Garden"],
+        "features": ["Rooftop Terrace", "Office", "Smart Home"],
+        "agent": {
+          "image": "/images/agents/MarcusLee.webp",
+          "name": "Marcus Lee",
+          "phone": "+971507779999",
+          "email": "marcus@realtydubai.com",
+          "whatsapp": "+971507779999"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-19",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5!2d55.257!3d25.112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f680680680680%3A0x8068068068068068!2sDubai%20Hills%20Estate!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DH-TH-01",
+        "title": "Sidra Townhouse",
+        "description": "Family townhouse with garden in Dubai Hills Estate.",
+        "type": "Townhouse",
+        "transactionType": "Buy",
+        "price": "3,800,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Sidra, Dubai Hills Estate",
+          "neighborhood": "Dubai Hills Estate",
+          "coordinates": { "lat": 25.115, "lng": 55.26 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property10.webp",
+            "alt": "Sidra townhouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room10.webp",
+            "alt": "Private garden"
+          },
+          {
+            "name": "/images/property/hall/hall10.webp",
+            "alt": "Modern living"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "size": { "sqft": 2200, "sqm": 204 },
+        "furnished": "Unfurnished",
+        "amenities": ["Park", "Pool", "Gym", "Garden"],
+        "features": ["Community Park", "Garden", "Maid Room"],
+        "agent": {
+          "image": "/images/agents/LinaAlSuwaidi.webp",
+          "name": "Lina Al Suwaidi",
+          "phone": "+971504445556",
+          "email": "lina@realtydubai.com",
+          "whatsapp": "+971504445556"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-23",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.166!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4340b8f8a8b1%3A0x9c8f8f8f8f8f8f8f!2sDowntown%20Dubai!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DT-PEN-01",
+        "title": "Address Sky View Penthouse",
+        "description": "Luxury penthouse with full Burj Khalifa view.",
+        "type": "Penthouse",
+        "transactionType": "Buy",
+        "price": "22,000,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Address Sky View, Downtown Dubai",
+          "neighborhood": "Downtown Dubai",
+          "coordinates": { "lat": 25.197, "lng": 55.274 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property11.webp",
+            "alt": "Sky View penthouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room11.webp",
+            "alt": "Burj view terrace"
+          },
+          {
+            "name": "/images/property/hall/hall11.webp",
+            "alt": "Luxury interior"
+          }
+        ],
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "size": { "sqft": 5200, "sqm": 483 },
+        "furnished": "Unfurnished",
+        "amenities": ["Pool", "Gym", "Concierge", "Spa"],
+        "features": ["Full Burj View", "Private Terrace", "Smart Home"],
+        "agent": {
+          "image": "/images/agents/NadiaKhan.webp",
+          "name": "Nadia Khan",
+          "phone": "+971509871234",
+          "email": "nadia@realtydubai.com",
+          "whatsapp": "+971509871234"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-12",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.8!2d55.139!3d25.0762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f142c1c1c1c1c%3A0x1c1c1c1c1c1c1c1c!2sDubai%20Marina!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DM-VIL-01",
+        "title": "Marina Waterfront Villa",
+        "description": "Luxury villa with private yacht berth in Dubai Marina.",
+        "type": "Villa",
+        "transactionType": "Rent",
+        "price": "2,200,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Marina Promenade, Dubai Marina",
+          "neighborhood": "Dubai Marina",
+          "coordinates": { "lat": 25.076, "lng": 55.139 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property12.webp",
+            "alt": "Marina villa",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room12.webp",
+            "alt": "Yacht dock"
+          },
+          {
+            "name": "/images/property/hall/hall12.webp",
+            "alt": "Private pool"
+          }
+        ],
+        "bedrooms": 6,
+        "bathrooms": 7,
+        "size": { "sqft": 8500, "sqm": 789 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Yacht Berth", "Pool", "Gym", "Cinema"],
+        "features": ["Yacht Berth", "Private Dock", "Cinema"],
+        "agent": {
+          "image": "/images/agents/MarcusLee.webp",
+          "name": "Marcus Lee",
+          "phone": "+971507779999",
+          "email": "marcus@realtydubai.com",
+          "whatsapp": "+971507779999"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-21",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5!2d55.138!3d25.1143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f130d0d0d0d0d%3A0xd0d0d0d0d0d0d0d0!2sPalm%20Jumeirah!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "PJ-APT-01",
+        "title": "Atlantis Studio",
+        "description": "Luxury studio with resort access in Atlantis The Royal.",
+        "type": "Apartment",
+        "transactionType": "Rent",
+        "price": "180,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Atlantis The Royal, Palm Jumeirah",
+          "neighborhood": "Palm Jumeirah",
+          "coordinates": { "lat": 25.1143, "lng": 55.1391 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property13.webp",
+            "alt": "Atlantis studio",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room13.webp",
+            "alt": "Sea view"
+          },
+          {
+            "name": "/images/property/hall/hall13.webp",
+            "alt": "Resort pool"
+          }
+        ],
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "size": { "sqft": 700, "sqm": 65 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Resort Access", "Pool", "Spa", "Gym"],
+        "features": ["Sea View", "Resort Access", "Balcony"],
+        "agent": {
+          "image": "/images/agents/ElenaPetrova.webp",
+          "name": "Elena Petrova",
+          "phone": "+971505551234",
+          "email": "elena@realtydubai.com",
+          "whatsapp": "+971505551234"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-24",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0!2d55.271!3d25.1835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f590590590590%3A0x9059059059059059!2sBusiness%20Bay!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "BB-DUP-01",
+        "title": "JW Marriott Duplex",
+        "description": "Hotel-style duplex with sky lounge access.",
+        "type": "Duplex",
+        "transactionType": "Rent",
+        "price": "220,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "JW Marriott Marquis, Business Bay",
+          "neighborhood": "Business Bay",
+          "coordinates": { "lat": 25.183, "lng": 55.272 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property14.webp",
+            "alt": "JW duplex",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room14.webp",
+            "alt": "Sky lounge"
+          },
+          {
+            "name": "/images/property/hall/hall15.webp",
+            "alt": "Hotel bedroom"
+          }
+        ],
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "size": { "sqft": 1600, "sqm": 149 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Hotel Amenities", "Pool", "Spa", "Gym"],
+        "features": ["Hotel Amenities", "Sky View", "Concierge"],
+        "agent": {
+          "image": "/images/agents/SarahKhan.webp",
+          "name": "Sarah Khan",
+          "phone": "+971501234567",
+          "email": "sarah@realtydubai.com",
+          "whatsapp": "+971501234567"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-17",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5!2d55.257!3d25.112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f680680680680%3A0x8068068068068068!2sDubai%20Hills%20Estate!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DH-PEN-01",
+        "title": "Emerald Hills Penthouse",
+        "description": "Golf-front penthouse with panoramic views.",
+        "type": "Penthouse",
+        "transactionType": "Buy",
+        "price": "9,800,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Emerald Hills, Dubai Hills Estate",
+          "neighborhood": "Dubai Hills Estate",
+          "coordinates": { "lat": 25.113, "lng": 55.259 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property15.webp",
+            "alt": "Emerald penthouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room15.webp",
+            "alt": "Golf terrace"
+          },
+          {
+            "name": "/images/property/hall/hall15.webp",
+            "alt": "Luxury interior"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "size": { "sqft": 3000, "sqm": 279 },
+        "furnished": "Semi-Furnished",
+        "amenities": ["Golf Course", "Pool", "Gym", "Spa"],
+        "features": ["Golf Course View", "Terrace", "Smart Home"],
+        "agent": {
+          "image": "/images/agents/SofiaAhmed.webp",
+          "name": "Sofia Ahmed",
+          "phone": "+971502223334",
+          "email": "sofia@realtydubai.com",
+          "whatsapp": "+971502223334"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-14",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.166!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4340b8f8a8b1%3A0x9c8f8f8f8f8f8f8f!2sDowntown%20Dubai!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DT-TH-01",
+        "title": "Opera District Townhouse",
+        "description": "Modern townhouse near Dubai Opera with rooftop terrace.",
+        "type": "Townhouse",
+        "transactionType": "Buy",
+        "price": "6,500,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Opera District, Downtown Dubai",
+          "neighborhood": "Downtown Dubai",
+          "coordinates": { "lat": 25.1963, "lng": 55.2752 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property16.webp",
+            "alt": "Opera townhouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room16.webp",
+            "alt": "Rooftop terrace"
+          },
+          {
+            "name": "/images/property/hall/hall16.webp",
+            "alt": "Modern kitchen"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "size": { "sqft": 2800, "sqm": 260 },
+        "furnished": "Semi-Furnished",
+        "amenities": ["Rooftop", "Gym", "Pool", "Parking"],
+        "features": ["Rooftop Terrace", "Maid Room", "Smart Home"],
+        "agent": {
+          "image": "/images/agents/SarahKhan.webp",
+          "name": "Sarah Khan",
+          "phone": "+971501234567",
+          "email": "sarah@realtydubai.com",
+          "whatsapp": "+971501234567"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-16",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.8!2d55.139!3d25.0762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f142c1c1c1c1c%3A0x1c1c1c1c1c1c1c1c!2sDubai%20Marina!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DM-DUP-01",
+        "title": "Cayan Duplex",
+        "description": "Twisted tower duplex with high ceilings and marina views.",
+        "type": "Duplex",
+        "transactionType": "Rent",
+        "price": "350,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Cayan Tower, Dubai Marina",
+          "neighborhood": "Dubai Marina",
+          "coordinates": { "lat": 25.077, "lng": 55.14 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property17.webp",
+            "alt": "Cayan duplex",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room17.webp",
+            "alt": "Twisted view"
+          },
+          {
+            "name": "/images/property/hall/hall17.webp",
+            "alt": "High ceiling living"
+          }
+        ],
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "size": { "sqft": 2000, "sqm": 186 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Gym", "Pool", "Spa", "Concierge"],
+        "features": ["Twisted View", "High Ceilings", "Balcony"],
+        "agent": {
+          "image": "/images/agents/ZainabMalik.webp",
+          "name": "Zainab Malik",
+          "phone": "+971502345678",
+          "email": "zainab@realtydubai.com",
+          "whatsapp": "+971502345678"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-18",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5!2d55.138!3d25.1143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f130d0d0d0d0d%3A0xd0d0d0d0d0d0d0d0!2sPalm%20Jumeirah!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "PJ-TH-01",
+        "title": "Palm Townhouse",
+        "description": "Beach-access townhouse on The Crescent, Palm Jumeirah.",
+        "type": "Townhouse",
+        "transactionType": "Buy",
+        "price": "8,900,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "The Crescent, Palm Jumeirah",
+          "neighborhood": "Palm Jumeirah",
+          "coordinates": { "lat": 25.115, "lng": 55.14 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property18.webp",
+            "alt": "Palm townhouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room18.webp",
+            "alt": "Private garden"
+          },
+          {
+            "name": "/images/property/hall/hall18.webp",
+            "alt": "Beach access"
+          }
+        ],
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "size": { "sqft": 3200, "sqm": 297 },
+        "furnished": "Semi-Furnished",
+        "amenities": ["Beach Access", "Pool", "Gym", "Garden"],
+        "features": ["Beach Access", "Private Garden", "Maid Room"],
+        "agent": {
+          "image": "/images/agents/LinaAlSuwaidi.webp",
+          "name": "Lina Al Suwaidi",
+          "phone": "+971504445556",
+          "email": "lina@realtydubai.com",
+          "whatsapp": "+971504445556"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-20",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0!2d55.271!3d25.1835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f590590590590%3A0x9059059059059059!2sBusiness%20Bay!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "BB-MAN-01",
+        "title": "Business Bay Royal Mansion",
+        "description": "Elite mansion with helipad in Business Bay.",
+        "type": "Mansion",
+        "transactionType": "Buy",
+        "price": "55,000,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Elite Residence, Business Bay",
+          "neighborhood": "Business Bay",
+          "coordinates": { "lat": 25.181, "lng": 55.27 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property19.webp",
+            "alt": "Royal mansion",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room19.webp",
+            "alt": "Helipad"
+          },
+          {
+            "name": "/images/property/hall/hall19.webp",
+            "alt": "Private spa"
+          }
+        ],
+        "bedrooms": 7,
+        "bathrooms": 9,
+        "size": { "sqft": 14000, "sqm": 1300 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Helipad", "Spa", "Cinema", "Pool"],
+        "features": ["Helipad", "Private Spa", "Cinema"],
+        "agent": {
+          "image": "/images/agents/KhalidNoor.webp",
+          "name": "Khalid Noor",
+          "phone": "+971507891234",
+          "email": "khalid@realtydubai.com",
+          "whatsapp": "+971507891234"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-11",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5!2d55.257!3d25.112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f680680680680%3A0x8068068068068068!2sDubai%20Hills%20Estate!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DH-VIL-01",
+        "title": "Maple Villa",
+        "description": "Family villa with private pool in Maple, Dubai Hills.",
+        "type": "Villa",
+        "transactionType": "Rent",
+        "price": "850,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Maple, Dubai Hills Estate",
+          "neighborhood": "Dubai Hills Estate",
+          "coordinates": { "lat": 25.114, "lng": 55.257 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property20.webp",
+            "alt": "Maple villa",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room20.webp",
+            "alt": "Private pool"
+          },
+          {
+            "name": "/images/property/hall/hall20.webp",
+            "alt": "Garden"
+          }
+        ],
+        "bedrooms": 4,
+        "bathrooms": 5,
+        "size": { "sqft": 5500, "sqm": 510 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Private Pool", "Garden", "Gym", "Park"],
+        "features": ["Private Pool", "Garden", "Maid Room"],
+        "agent": {
+          "image": "/images/agents/MarcusLee.webp",
+          "name": "Marcus Lee",
+          "phone": "+971507779999",
+          "email": "marcus@realtydubai.com",
+          "whatsapp": "+971507779999"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-22",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.166!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4340b8f8a8b1%3A0x9c8f8f8f8f8f8f8f!2sDowntown%20Dubai!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DT-DUP-01",
+        "title": "Forte Duplex Loft",
+        "description": "Double-height duplex near Dubai Opera.",
+        "type": "Duplex",
+        "transactionType": "Rent",
+        "price": "280,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Forte Towers, Downtown Dubai",
+          "neighborhood": "Downtown Dubai",
+          "coordinates": { "lat": 25.1957, "lng": 55.2753 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property21.webp",
+            "alt": "Forte duplex",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room21.webp",
+            "alt": "Double height"
+          },
+          {
+            "name": "/images/property/hall/hall21.webp",
+            "alt": "Balcony view"
+          }
+        ],
+        "bedrooms": 2,
+        "bathrooms": 3,
+        "size": { "sqft": 1800, "sqm": 167 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Pool", "Gym", "Concierge", "Parking"],
+        "features": ["Double Height Ceiling", "Balcony", "Smart Home"],
+        "agent": {
+          "image": "/images/agents/MiraSaleh.webp",
+          "name": "Mira Saleh",
+          "phone": "+971505678901",
+          "email": "mira@realtydubai.com",
+          "whatsapp": "+971505678901"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-19",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.8!2d55.139!3d25.0762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f142c1c1c1c1c%3A0x1c1c1c1c1c1c1c1c!2sDubai%20Marina!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DM-TH-01",
+        "title": "Marina Quays Townhouse",
+        "description": "Waterfront townhouse with private garden.",
+        "type": "Townhouse",
+        "transactionType": "Buy",
+        "price": "5,800,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Marina Quays, Dubai Marina",
+          "neighborhood": "Dubai Marina",
+          "coordinates": { "lat": 25.075, "lng": 55.142 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property22.webp",
+            "alt": "Marina Quays",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room22.webp",
+            "alt": "Waterfront"
+          },
+          {
+            "name": "/images/property/hall/hall22.webp",
+            "alt": "Private garden"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "size": { "sqft": 2600, "sqm": 241 },
+        "furnished": "Semi-Furnished",
+        "amenities": ["Waterfront", "Pool", "Gym", "Garden"],
+        "features": ["Waterfront", "Private Garden", "Maid Room"],
+        "agent": {
+          "image": "/images/agents/OmarFarooq.webp",
+          "name": "Omar Farooq",
+          "phone": "+971506543210",
+          "email": "omar@realtydubai.com",
+          "whatsapp": "+971506543210"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-25",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5!2d55.138!3d25.1143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f130d0d0d0d0d%3A0xd0d0d0d0d0d0d0d0!2sPalm%20Jumeirah!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "PJ-DUP-01",
+        "title": "Six Senses Duplex",
+        "description": "Wellness duplex with spa access on Palm Jumeirah.",
+        "type": "Duplex",
+        "transactionType": "Rent",
+        "price": "550,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Six Senses Residences, Palm Jumeirah",
+          "neighborhood": "Palm Jumeirah",
+          "coordinates": { "lat": 25.114, "lng": 55.139 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property23.webp",
+            "alt": "Six Senses duplex",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room23.webp",
+            "alt": "Spa access"
+          },
+          {
+            "name": "/images/property/hall/hall23.webp",
+            "alt": "Sea view"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "size": { "sqft": 2500, "sqm": 232 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Spa", "Pool", "Gym", "Beach"],
+        "features": ["Spa Access", "Sea View", "Balcony"],
+        "agent": {
+          "image": "/images/agents/HassanMalik.webp",
+          "name": "Hassan Malik",
+          "phone": "+971506667778",
+          "email": "hassan@realtydubai.com",
+          "whatsapp": "+971506667778"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-23",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0!2d55.271!3d25.1835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f590590590590%3A0x9059059059059059!2sBusiness%20Bay!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "BB-APT-01",
+        "title": "Executive Towers Studio",
+        "description": "Compact studio with canal view in Business Bay.",
+        "type": "Apartment",
+        "transactionType": "Rent",
+        "price": "85,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "Executive Towers, Business Bay",
+          "neighborhood": "Business Bay",
+          "coordinates": { "lat": 25.1835, "lng": 55.2727 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property24.webp",
+            "alt": "Executive studio",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room24.webp",
+            "alt": "Canal view"
+          },
+          {
+            "name": "/images/property/room/room24.webp",
+            "alt": "Modern kitchen"
+          }
+        ],
+        "bedrooms": 1,
+        "bathrooms": 1,
+        "size": { "sqft": 480, "sqm": 45 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Gym", "Pool", "Parking", "Security"],
+        "features": ["Canal View", "Gym", "High Floor"],
+        "agent": {
+          "image": "/images/agents/OmarFarooq.webp",
+          "name": "Omar Farooq",
+          "phone": "+971506543210",
+          "email": "omar@realtydubai.com",
+          "whatsapp": "+971506543210"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-26",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5!2d55.257!3d25.112!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f680680680680%3A0x8068068068068068!2sDubai%20Hills%20Estate!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DH-MAN-01",
+        "title": "Hills Royal Mansion",
+        "description": "Golf-front mansion with private spa in Dubai Hills.",
+        "type": "Mansion",
+        "transactionType": "Buy",
+        "price": "48,000,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "PGA Drive, Dubai Hills Estate",
+          "neighborhood": "Dubai Hills Estate",
+          "coordinates": { "lat": 25.11, "lng": 55.255 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property25.webp",
+            "alt": "Royal mansion",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room25.webp",
+            "alt": "Golf front"
+          },
+          { "name": "/images/property/hall/hall25.webp", "alt": "Private spa" }
+        ],
+        "bedrooms": 7,
+        "bathrooms": 9,
+        "size": { "sqft": 13000, "sqm": 1207 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Golf Front", "Spa", "Cinema", "Pool"],
+        "features": ["Golf Front", "Private Spa", "Helipad"],
+        "agent": {
+          "image": "/images/agents/RashidKhan.webp",
+          "name": "Rashid Khan",
+          "phone": "+971509998887",
+          "email": "rashid@realtydubai.com",
+          "whatsapp": "+971509998887"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-13",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.166!2d55.2708!3d25.1972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f4340b8f8a8b1%3A0x9c8f8f8f8f8f8f8f!2sDowntown%20Dubai!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DT-VIL-01",
+        "title": "Downtown Villa Haven",
+        "description": "Exclusive villa with private garden in Downtown Dubai.",
+        "type": "Villa",
+        "transactionType": "Rent",
+        "price": "1,800,000",
+        "currency": "AED",
+        "pricePer": "Year",
+        "location": {
+          "address": "The Residences, Downtown Dubai",
+          "neighborhood": "Downtown Dubai",
+          "coordinates": { "lat": 25.195, "lng": 55.275 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property26.webp",
+            "alt": "Downtown villa",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room26.webp",
+            "alt": "Private pool"
+          },
+          {
+            "name": "/images/property/room/room26.webp",
+            "alt": "Garden"
+          }
+        ],
+        "bedrooms": 5,
+        "bathrooms": 6,
+        "size": { "sqft": 7500, "sqm": 696 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Private Pool", "Garden", "Gym", "Parking"],
+        "features": ["Private Pool", "Garden", "Maid Room"],
+        "agent": {
+          "image": "/images/agents/AmirSaeed.webp",
+          "name": "Amir Saeed",
+          "phone": "+971503216543",
+          "email": "amir@realtydubai.com",
+          "whatsapp": "+971503216543"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-20",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.8!2d55.139!3d25.0762!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f142c1c1c1c1c%3A0x1c1c1c1c1c1c1c1c!2sDubai%20Marina!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "DM-MAN-01",
+        "title": "Elite Marina Mansion",
+        "description": "Waterfront mansion with private yacht dock.",
+        "type": "Mansion",
+        "transactionType": "Buy",
+        "price": "65,000,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Marina Crown, Dubai Marina",
+          "neighborhood": "Dubai Marina",
+          "coordinates": { "lat": 25.074, "lng": 55.138 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property27.webp",
+            "alt": "Elite mansion",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room27.webp",
+            "alt": "Yacht dock"
+          },
+          {
+            "name": "/images/property/hall/hall27.webp",
+            "alt": "Cinema room"
+          }
+        ],
+        "bedrooms": 8,
+        "bathrooms": 10,
+        "size": { "sqft": 18000, "sqm": 1672 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Yacht Dock", "Cinema", "Spa", "Pool"],
+        "features": ["Private Yacht Dock", "Cinema", "Helipad"],
+        "agent": {
+          "image": "/images/agents/RashidKhan.webp",
+          "name": "Rashid Khan",
+          "phone": "+971509998887",
+          "email": "rashid@realtydubai.com",
+          "whatsapp": "+971509998887"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-15",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5!2d55.138!3d25.1143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f130d0d0d0d0d%3A0xd0d0d0d0d0d0d0d0!2sPalm%20Jumeirah!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "PJ-MAN-01",
+        "title": "Palm Royal Mansion",
+        "description": "Iconic mansion with private beach and helipad.",
+        "type": "Mansion",
+        "transactionType": "Buy",
+        "price": "120,000,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Frond A, Palm Jumeirah",
+          "neighborhood": "Palm Jumeirah",
+          "coordinates": { "lat": 25.111, "lng": 55.136 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property28.webp",
+            "alt": "Royal mansion",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room28.webp",
+            "alt": "Private beach"
+          },
+          {
+            "name": "/images/property/hall/hall28.webp",
+            "alt": "Helipad"
+          }
+        ],
+        "bedrooms": 9,
+        "bathrooms": 12,
+        "size": { "sqft": 25000, "sqm": 2323 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Private Beach", "Helipad", "Spa", "Cinema"],
+        "features": ["Private Beach", "Helipad", "Garden"],
+        "agent": {
+          "image": "/images/agents/LaylaHassan.webp",
+          "name": "Layla Hassan",
+          "phone": "+971504567890",
+          "email": "layla@realtydubai.com",
+          "whatsapp": "+971504567890"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-10",
+        "status": "Available"
+      },
+      {
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.0!2d55.271!3d25.1835!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f590590590590%3A0x9059059059059059!2sBusiness%20Bay!5e0!3m2!1sen!2sae!4v1735680000000",
+        "propertyId": "BB-PEN-01",
+        "title": "Paramount Penthouse",
+        "description": "Cinema-themed penthouse in Paramount Tower.",
+        "type": "Penthouse",
+        "transactionType": "Buy",
+        "price": "12,500,000",
+        "currency": "AED",
+        "pricePer": "Total",
+        "location": {
+          "address": "Paramount Tower, Business Bay",
+          "neighborhood": "Business Bay",
+          "coordinates": { "lat": 25.184, "lng": 55.273 }
+        },
+        "images": [
+          {
+            "name": "/images/property/primary/property29.webp",
+            "alt": "Paramount penthouse",
+            "isPrimary": true
+          },
+          {
+            "name": "/images/property/room/room28.webp",
+            "alt": "Sky lounge"
+          },
+          {
+            "name": "/images/property/hall/hall29.webp",
+            "alt": "Cinema room"
+          }
+        ],
+        "bedrooms": 3,
+        "bathrooms": 4,
+        "size": { "sqft": 3500, "sqm": 325 },
+        "furnished": "Fully Furnished",
+        "amenities": ["Sky Lounge", "Cinema", "Pool", "Gym"],
+        "features": ["Sky Lounge", "Cinema", "Smart Home"],
+        "agent": {
+          "image": "/images/agents/ZainabMalik.webp",
+          "name": "Zainab Malik",
+          "phone": "+971502345678",
+          "email": "zainab@realtydubai.com",
+          "whatsapp": "+971502345678"
+        },
+        "availability": "Immediate",
+        "listingDate": "2025-10-17",
+        "status": "Available"
+      }
+    ]
+  }
+}

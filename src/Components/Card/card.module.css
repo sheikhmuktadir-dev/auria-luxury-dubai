@@ -1,0 +1,464 @@
+.locationCard {
+  position: relative;
+  width: var(--locationcard-width);
+  height: var(--locationcard-height);
+  background: var(--gray-background);
+  border-radius: var(--locationcard-radius);
+  padding: var(--locationcard-padding);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.4s ease-in-out;
+  will-change: width;
+  overflow: hidden;
+  z-index: 20;
+}
+
+.locationCardActive {
+  width: 100%;
+}
+
+/* location card image area */
+.locationCardImageArea {
+  position: absolute;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+/* location image overlay */
+.locationCardImageArea::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: var(--locationcard-radius);
+  z-index: 30;
+  background: var(--locationcard-overlay);
+}
+
+/* location image */
+.locationImage {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: var(--locationcard-radius);
+}
+
+/* location card text area */
+.locationCardText {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  color: var(--white-text);
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+  justify-content: space-between;
+  align-items: end;
+  z-index: 100;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.locationCardActive .locationCardText {
+  opacity: 1;
+}
+
+/* location card circle small btn */
+.locationCardBtn {
+  position: relative;
+  height: var(--locationcard-button);
+  width: var(--locationcard-button);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex: none;
+  text-align: center;
+  font-size: var(--body-fontsize);
+  line-height: 1;
+  border: none;
+  border-radius: 50px;
+  color: var(--dark-color);
+  background: var(--cream-background);
+}
+
+/* ********************************************************************** location card end **************************************** */
+
+.featuredCard {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  border-radius: var(--featuredcard-radius);
+  overflow: hidden;
+  height: var(--featuredcard-height);
+  display: flex;
+  flex-direction: column;
+  background: var(--gray-background);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+  overflow: hidden;
+}
+
+/* featured card image area */
+.featuredCardImageArea {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.featuredCardImageArea::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background: var(--featuredcard-overlay);
+  opacity: 1;
+  transition: opacity 0.3s ease;
+}
+
+.featuredCardImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  transition: transform 0.6s ease;
+  will-change: transform;
+}
+
+.featuredCard:hover .featuredCardImage {
+  transform: scale(1.1);
+}
+
+/* featured card content */
+.featuredContent {
+  position: absolute;
+  bottom: 40px;
+  left: 0;
+  z-index: 30;
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 30px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform;
+}
+
+.featuredCard:hover .featuredContent {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.featuredTitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.featuredContentBottomFlex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.featuredCardBottomTextFlex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.featuredCardBottomBedroom {
+  font-size: var(--normal-fontsize);
+  color: var(--white-color);
+}
+
+.featuredDot {
+  color: var(--white-color);
+}
+
+/* ***************************************************************** freatured card end ******************************************* */
+
+.propertiesCard {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  z-index: 50;
+}
+
+.mainGrid {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullGrid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+
+/* properties image area */
+.propertiesCardImageArea {
+  position: relative;
+  height: var(--propertiescard-image-height);
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  border-radius: var(--propertiescard-radius);
+}
+
+.fullGrid .propertiesCardImageArea {
+  max-width: 30%;
+  width: 100%;
+}
+
+.propertiesCardImage {
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+  border-radius: var(--propertiescard-radius);
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.3s ease-in;
+  object-position: center;
+}
+
+.propertiesCard:hover .propertiesCardImage {
+  transform: scale(1.05, 1.05);
+}
+
+/* properties content */
+.propertiesCardContent {
+  position: relative;
+  padding: var(--propertiescard-padding);
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  width: 100%;
+  gap: 10px;
+}
+
+.fullGrid .propertiesCardContent {
+  max-width: 70%;
+  width: 100%;
+}
+
+/* properties location */
+.propertiesCardLocation {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* properties title */
+.propertiesCardTitle {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.propertiesCardDetailsFlex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.propertiesCardDetailsMainFlex {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.propertiesCardBottom {
+  border-top: 1px solid var(--border-gray);
+  padding: 15px 0 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* properties agent */
+.propertiesCardAgent {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.propertiesCardAgentImage {
+  width: var(--propertiescard-agentsize);
+  height: var(--propertiescard-agentsize);
+  border-radius: var(--propertiescard-radius);
+  position: relative;
+  object-fit: cover;
+  object-position: top center;
+}
+
+/* properties cost area*/
+.propertiesCardCostArea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+/* ************************************************************************************* property card end ********************************************************* */
+
+.cardTitle {
+  position: relative;
+  font-weight: var(--fontweight-400);
+  font-size: var(--h4-fontsize);
+  font-family: var(--heading-fontfamily);
+  line-height: 1.4;
+  color: var(--dark-text);
+}
+
+.cardSmallText {
+  position: relative;
+  font-weight: var(--fontweight-400);
+  font-size: var(--h5-fontsize);
+  line-height: 1.5;
+  font-family: var(--primary-fontfamily);
+  color: var(--dark-text);
+}
+
+.cardTitle.cardTextWhite {
+  color: var(--white-color);
+}
+
+.cardSmallText.cardTextWhite {
+  color: var(--white-color);
+}
+
+.cardSmallText.propertiesCardCost {
+  position: relative;
+  font-size: var(--body-font-size);
+}
+
+.cardTag {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  background: var(--dark-background);
+  display: inline-flex;
+  justify-content: center;
+  white-space: nowrap;
+  flex: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  align-items: center;
+  text-align: center;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--white-color);
+  font-size: var(--normal-fontsize);
+  z-index: 100;
+}
+/* ************************************************************************************************** */
+
+@media (max-width: 767.98px) {
+  .featuredContent {
+    padding: 0 20px;
+    bottom: 20px;
+  }
+
+  .cardTag {
+    top: 15px;
+    font-size: 12px;
+    right: 15px;
+    padding: 10px 15px;
+  }
+
+  .propertiesCardBottom {
+    gap: 10px;
+  }
+
+  .fullGrid {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 0;
+  }
+
+  .fullGrid .propertiesCardImageArea {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .fullGrid .propertiesCardContent {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .locationCardBtn {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  .featuredContent {
+    padding: 0 20px;
+    bottom: 20px;
+  }
+
+  .fullGrid {
+    gap: 20px;
+  }
+
+  .fullGrid .propertiesCardImageArea {
+    max-width: 40%;
+    width: 100%;
+  }
+
+  .fullGrid .propertiesCardContent {
+    max-width: 60%;
+    width: 100%;
+  }
+
+  .locationCardBtn {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  .featuredContent {
+    padding: 0 20px;
+    bottom: 20px;
+  }
+
+  .fullGrid .propertiesCardImageArea {
+    max-width: 40%;
+    width: 100%;
+  }
+
+  .fullGrid .propertiesCardContent {
+    max-width: 60%;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1599.98px) {
+  .fullGrid {
+    gap: 20px;
+  }
+}

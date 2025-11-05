@@ -1,0 +1,827 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oranienbaum&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  /* ===========================
+    font family
+    =========================== */
+  --large-heading-fontfamily: "Oranienbaum", serif;
+  --heading-fontfamily: "Playfair Display", serif;
+  --primary-fontfamily: "Inter", sans-serif;
+
+  /* ===========================
+    container
+    =========================== */
+  --container-width: 1400px;
+  --container-padding: 0 1rem;
+
+  /* ===========================
+    button
+    =========================== */
+  --button-height: 55px;
+  --button-padding: 0 26px;
+  --button-radius: 10px;
+
+  /* ===========================
+    heading cover
+    =========================== */
+  --heading-width: 850px;
+  --heading-bottom-padding: 0 0 40px;
+
+  /* ===========================
+    section
+    =========================== */
+  --section-largepadding: 80px 0;
+  --section-toppadding: 80px 0 0;
+  --section-bottompadding: 0 0 80px;
+
+  /* ===========================
+    navbar
+    =========================== */
+  --nav-position: fixed;
+  --nav-zindex: 99999;
+  --nav-height: 80px;
+  --nav-padding: 0 20px;
+  --nav-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  --nav-logo-width: 160px;
+  --nav-menu-gap: 30px;
+  --nav-mobile-menuheight: 100vh;
+  --nav-mobile-menuzindex: 999999;
+  --nav-mobile-toggle-fontsize: 30px;
+
+  /* ===========================
+    home hero
+    =========================== */
+  --hero-search-position: absolute;
+  --hero-search-location: 70px;
+  --hero-image-height: 680px;
+  --hero-image-overlay: linear-gradient(
+      180deg,
+      rgba(18, 18, 18, 0) 1.03%,
+      #121212 100%
+    ),
+    linear-gradient(0deg, rgb(18, 18, 18, 0.05), rgb(18, 18, 18, 0.12));
+  --hero-image-objectposition: bottom center;
+  --hero-content-padding: 180px 0 60px;
+  --hero-content-gridcolumns: 2fr 1.5fr;
+  --hero-content-gap: 60px;
+
+  /* ===========================
+    home about
+    =========================== */
+  --about-height: 480px;
+  --about-radius: 20px;
+  --about-overlay: rgba(0, 0, 0, 0.5);
+  --about-content-width: 700px;
+  --about-padding: 60px;
+  --about-content-gap: 60px;
+
+  /* ===========================
+    home whyus
+    =========================== */
+  --whyus-column-gap: 60px;
+  --whyus-gridcolumn: repeat(3, 1fr);
+  --whyus-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+  --whyus-iconsize: 4.5rem;
+  --whyus-radius: 20px;
+
+  /* ===========================
+    home getin touch
+    =========================== */
+  --getintouch-height: 680px;
+  --getintouch-overlay: #00000096;
+
+  /* ===========================
+    search & dropdown
+    =========================== */
+  --search-width: var(--container-width);
+  --search-outer-padding: 0 1rem;
+  --search-radius: 10px;
+  --search-gridcolumn: repeat(4, 2fr) 1fr;
+  --search-btn-padding: 25px 40px;
+  --dropdown-padding: 25px 30px;
+  --dropdown-button-radius: 10px;
+  --dropdown-box-padding: 10px;
+  --dropdown-box-radius: 10px;
+  --dropdown-box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  --dropdown-box-height: 180px;
+
+  /* ===========================
+  location Card
+    =========================== */
+  --locationcard-height: 380px;
+  --locationcard-width: 300px;
+  --locationcard-overlay: linear-gradient(
+    180deg,
+    transparent,
+    rgba(0, 0, 0, 0.6) 97%
+  );
+  --locationcard-radius: 20px;
+  --locationcard-button: 45px;
+  --locationcard-padding: 30px;
+
+  /* ===========================
+  featured Card
+    =========================== */
+  --featuredcard-height: 560px;
+  --featuredcard-radius: 20px;
+  --featuredcard-padding: 30px;
+  --featuredcard-overlay: linear-gradient(#08080521, #080805d5);
+
+  /* ===========================
+  properties Card
+    =========================== */
+  --propertiescard-image-height: 380px;
+  --propertiescard-radius: 20px;
+  --propertiescard-padding: 30px 20px 0;
+  --propertiescard-agentsize: 45px;
+
+  /* ===========================
+  footer
+    =========================== */
+  --footer-padding: 120px 0;
+  --footer-gap: 60px;
+  --footer-position: sticky;
+  --footer-grid: repeat(4, 1fr);
+
+  /* ===========================
+  breadcrumb
+    =========================== */
+  --breadcrumb-padding: 40px 0 0;
+
+  /* ===========================
+  details page
+    =========================== */
+  --details-image: 600px;
+  --details-contentgrid: 2fr 1fr;
+  --details-content-padding: 40px 0;
+  --details-agent-image: 100px;
+  --details-map-height: 400px;
+  --details-agent-position: sticky;
+  --details-agent-position-area: 100px;
+  --details-informationgrid: repeat(2, 1fr);
+
+  /* ===========================
+  properties page
+    =========================== */
+  --property-row-gap: 60px;
+  --property-col-gap: 20px;
+  --property-3column-grid: repeat(3, 1fr);
+  --property-bottom-btn-space: 100px 0 0;
+  --property-gridtoggle-btn: 45px;
+
+  /* ===========================
+  contact page
+    =========================== */
+  --contact-grid: 1fr 2fr;
+  --contact-gap: 60px;
+  --contact-address-padding: 60px 40px;
+  --contact-from-grid: 1fr 1fr;
+  --contact-map-height: 580px;
+  --contact-box-padding: 40px;
+
+  /* ===========================
+  about page
+    =========================== */
+  --aboutheading-width: 700px;
+  --aboutbgimage-height: 650px;
+  --aboutdetails-grid: 1fr 2fr;
+  --aboutdetails-gap: 60px;
+
+  /* ===========================
+  testimonial
+    =========================== */
+  --testimonial-height: 360px;
+  --testimonial-padding: 40px;
+
+  /* ===========================
+    font weight
+    =========================== */
+  --fontweight-100: 100;
+  --fontweight-200: 200;
+  --fontweight-300: 300;
+  --fontweight-400: 400;
+  --fontweight-500: 500;
+  --fontweight-600: 600;
+  --fontweight-700: 700;
+  --fontweight-800: 800;
+  --fontweight-900: 900;
+
+  /* ===========================
+  fontsize
+    =========================== */
+  --very-large-fontsize: 100px;
+  --body-font-size: 20px;
+  --navbar-link-fontsize: 14px;
+  --normal-fontsize: 1rem;
+  --h1-fontsize: 6rem;
+  --h2-fontsize: 4.5rem;
+  --h3-fontsize: 3rem;
+  --h4-fontsize: 2rem;
+  --h5-fontsize: 1rem;
+
+  /* ===========================
+    background
+    =========================== */
+  --cream-background: #fcf9f2;
+  --cream-background-100: #f5f2eb;
+  --gold-background: #9b8e66;
+  --gray-background: rgba(87, 87, 87, 0.1);
+  --dark-background: #222;
+  --dark-hover-background: #444;
+  /* ===========================
+    color
+    =========================== */
+  --dark-color: #222;
+  --gold-color: #9b8e66;
+  --white-color: #f2efe5;
+  --color-gray: rgba(255, 255, 255, 0.55);
+
+  /* ===========================
+  border
+    =========================== */
+  --border-gray: rgba(102, 69, 69, 0.2);
+  --border-white: #f2efe5;
+}
+
+@media (max-width: 767.98px) {
+  :root {
+    /* ===========================
+    container
+    =========================== */
+    --container-width: 100%;
+
+    /* ===========================
+    navbar
+    =========================== */
+    --nav-logo-width: 130px;
+
+    /* ===========================
+    section
+    =========================== */
+    --section-largepadding: 50px 0;
+    --section-toppadding: 50px 0 0;
+    --section-bottompadding: 0 0 50px;
+
+    /* ===========================
+  testimonial
+    =========================== */
+    --testimonial-height: auto;
+    --testimonial-padding: 20px;
+
+    /* ===========================
+    home hero
+    =========================== */
+    --hero-search-position: absolute;
+    --hero-search-location: 40px;
+    --hero-image-height: 480px;
+    --hero-content-padding: 120px 0 30px;
+    --hero-content-gridcolumns: 1;
+    --hero-content-gap: 20px;
+
+    /* ===========================
+  location Card
+    =========================== */
+    --locationcard-height: 220px;
+    --locationcard-width: 100%;
+    --locationcard-padding: 20px;
+    --locationcard-button: 25px;
+
+    /* ===========================
+  featured Card
+    =========================== */
+    --featuredcard-height: 380px;
+    --featuredcard-padding: 20px;
+
+    /* ===========================
+  properties Card
+    =========================== */
+    --propertiescard-image-height: 240px;
+    --propertiescard-padding: 20px 15px 0;
+    --propertiescard-agentsize: 40px;
+
+    /* ===========================
+    search & dropdown
+    =========================== */
+    --search-width: var(--container-width);
+    --search-gridcolumn: 1fr;
+    --dropdown-padding: 25px 10px;
+    --search-btn-padding: 18px 10px;
+
+    /* ===========================
+    button
+    =========================== */
+    --button-height: 40px;
+
+    /* ===========================
+    home about
+    =========================== */
+    --about-height: auto;
+    --about-content-width: 100%;
+    --about-padding: 30px 20px;
+    --about-content-gap: 40px;
+
+    /* ===========================
+    heading cover
+    =========================== */
+    --heading-width: 100%;
+    --heading-bottom-padding: 0 0 20px;
+
+    /* ===========================
+    home whyus
+    =========================== */
+    --whyus-column-gap: 20px;
+    --whyus-gridcolumn: 1fr;
+    --whyus-iconsize: 2.5rem;
+
+    /* ===========================
+    home getin touch
+    =========================== */
+    --getintouch-height: auto;
+
+    /* ===========================
+  properties page
+    =========================== */
+    --property-row-gap: 40px;
+    --property-col-gap: 20px;
+    --property-3column-grid: 1fr;
+    --property-bottom-btn-space: 60px 0 0;
+    --property-gridtoggle-btn: 40px;
+
+    /* ===========================
+  footer
+    =========================== */
+    --footer-padding: 40px 0;
+    --footer-gap: 20px;
+    --footer-grid: 1fr;
+    --footer-position: relative;
+
+    /* ===========================
+  details page
+    =========================== */
+    --details-image: 250px;
+    --details-contentgrid: 1fr;
+    --details-content-padding: 20px 0;
+    --details-agent-image: 70px;
+    --details-agent-position: relative;
+    --details-map-height: 200px;
+    --details-agent-position-area: 0;
+    --details-informationgrid: 1fr;
+
+    /* ===========================
+  contact page
+    =========================== */
+    --contact-grid: 1fr;
+    --contact-gap: 40px;
+    --contact-address-padding: 20px 20px;
+    --contact-from-grid: 1fr;
+    --contact-map-height: 200px;
+    --contact-box-padding: 10px;
+
+    /* ===========================
+  about page
+    =========================== */
+    --aboutheading-width: 100%;
+    --aboutbgimage-height: 250px;
+    --aboutdetails-grid: 1fr;
+    --aboutdetails-gap: 20px;
+
+    /* ===========================
+  fontsize
+    =========================== */
+    --very-large-fontsize: 40px;
+    --body-font-size: 15px;
+    --navbar-link-fontsize: 14px;
+    --normal-fontsize: 15px;
+    --h1-fontsize: 2.2rem;
+    --h2-fontsize: 2rem;
+    --h3-fontsize: 1.5rem;
+    --h4-fontsize: 1.2rem;
+    --h5-fontsize: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023.98px) {
+  :root {
+    /* ===========================
+    container
+    =========================== */
+    --container-width: 704px;
+
+    /* ===========================
+  testimonial
+    =========================== */
+    --testimonial-height: 300px;
+    --testimonial-padding: 20px;
+
+    /* ===========================
+    home hero
+    =========================== */
+    --hero-search-position: absolute;
+    --hero-search-location: 40px;
+    --hero-content-padding: 140px 0 40px;
+    --hero-content-gridcolumns: 1;
+    --hero-image-height: 580px;
+    --hero-content-gap: 20px;
+
+    /* ===========================
+    search & dropdown
+    =========================== */
+    --search-width: var(--container-width);
+    --search-gridcolumn: 1fr;
+    --dropdown-padding: 25px 10px;
+    --search-btn-padding: 18px 10px;
+
+    /* ===========================
+    section
+    =========================== */
+    --section-largepadding: 60px 0;
+    --section-toppadding: 60px 0 0;
+    --section-bottompadding: 0 0 60px;
+
+    /* ===========================
+  location Card
+    =========================== */
+    --locationcard-height: 220px;
+    --locationcard-width: 100%;
+    --locationcard-padding: 20px;
+    --locationcard-button: 30px;
+
+    /* ===========================
+  featured Card
+    =========================== */
+    --featuredcard-height: 400px;
+    --featuredcard-padding: 20px;
+
+    /* ===========================
+  properties Card
+    =========================== */
+    --propertiescard-image-height: 240px;
+    --propertiescard-padding: 20px 20px 0;
+    --propertiescard-agentsize: 40px;
+
+    /* ===========================
+    home about
+    =========================== */
+    --about-height: auto;
+    --about-padding: 50px 40px;
+    --about-content-gap: 40px;
+    --about-content-width: 500px;
+
+    /* ===========================
+    home whyus
+    =========================== */
+    --whyus-column-gap: 20px;
+    --whyus-gridcolumn: repeat(3, 1fr);
+    --whyus-iconsize: 3rem;
+
+    /* ===========================
+    home getin touch
+    =========================== */
+    --getintouch-height: auto;
+
+    /* ===========================
+    heading cover
+    =========================== */
+    --heading-width: 500px;
+    --heading-bottom-padding: 0 0 20px;
+
+    /* ===========================
+  footer
+    =========================== */
+    --footer-padding: 50px 0;
+    --footer-gap: 20px;
+    --footer-position: relative;
+    --footer-grid: repeat(2, 1fr);
+
+    /* ===========================
+  properties page
+    =========================== */
+    --property-row-gap: 40px;
+    --property-col-gap: 20px;
+    --property-3column-grid: repeat(2, 1fr);
+    --property-bottom-btn-space: 60px 0 0;
+    --property-gridtoggle-btn: 40px;
+
+    /* ===========================
+  fontsize
+    =========================== */
+    --very-large-fontsize: 60px;
+    --body-font-size: 16px;
+    --navbar-link-fontsize: 14px;
+    --normal-fontsize: 15px;
+    --h1-fontsize: 3rem;
+    --h2-fontsize: 2.5rem;
+    --h3-fontsize: 2rem;
+    --h4-fontsize: 1.5rem;
+    --h5-fontsize: 16px;
+
+    /* ===========================
+  details page
+    =========================== */
+    --details-image: 300px;
+    --details-contentgrid: 1fr;
+    --details-content-padding: 20px 0;
+    --details-agent-image: 80px;
+    --details-agent-position: relative;
+    --details-map-height: 240px;
+    --details-agent-position-area: 0;
+    --details-informationgrid: 1fr 1fr;
+
+    /* ===========================
+  contact page
+    =========================== */
+    --contact-grid: 1fr;
+    --contact-gap: 40px;
+    --contact-address-padding: 20px 20px;
+    --contact-from-grid: 1fr 1fr;
+    --contact-map-height: 280px;
+    --contact-box-padding: 20px;
+
+    /* ===========================
+  about page
+    =========================== */
+    --aboutheading-width: 100%;
+    --aboutbgimage-height: 300px;
+    --aboutdetails-grid: 1fr 2fr;
+    --aboutdetails-gap: 40px;
+
+    /* ===========================
+    button
+    =========================== */
+    --button-height: 45px;
+  }
+}
+
+@media (min-width: 1024px) and (max-width: 1279.98px) {
+  :root {
+    /* ===========================
+    container
+    =========================== */
+    --container-width: 960px;
+
+    /* ===========================
+  testimonial
+    =========================== */
+    --testimonial-height: 300px;
+    --testimonial-padding: 20px;
+
+    /* ===========================
+    section
+    =========================== */
+    --section-largepadding: 70px 0;
+    --section-toppadding: 70px 0 0;
+    --section-bottompadding: 0 0 70px;
+
+    /* ===========================
+    button
+    =========================== */
+    --button-height: 50px;
+
+    /* ===========================
+    navbar
+    =========================== */
+    --nav-menu-gap: 20px;
+
+    /* ===========================
+    heading cover
+    =========================== */
+    --heading-width: 650px;
+    --heading-bottom-padding: 0 0 40px;
+
+    /* ===========================
+    search & dropdown
+    =========================== */
+    --dropdown-padding: 25px 15px;
+    --search-width: var(--container-width);
+
+    /* ===========================
+    home hero
+    =========================== */
+    --hero-image-height: 540px;
+    --hero-content-padding: 180px 0 45px;
+
+    /* ===========================
+  location Card
+    =========================== */
+    --locationcard-width: 200px;
+    --locationcard-button: 40px;
+    --locationcard-height: 320px;
+    --locationcard-padding: 20px;
+
+    /* ===========================
+  featured Card
+    =========================== */
+    --featuredcard-padding: 20px;
+    --featuredcard-height: 480px;
+
+    /* ===========================
+  fontsize
+    =========================== */
+    --very-large-fontsize: 70px;
+    --body-font-size: 16px;
+    --navbar-link-fontsize: 14px;
+    --normal-fontsize: 15px;
+    --h1-fontsize: 4rem;
+    --h2-fontsize: 3rem;
+    --h3-fontsize: 1.8rem;
+    --h4-fontsize: 1.4rem;
+    --h5-fontsize: 16px;
+
+    /* ===========================
+    home about
+    =========================== */
+    --about-height: 400px;
+    --about-content-width: 600px;
+
+    /* ===========================
+    home whyus
+    =========================== */
+    --whyus-column-gap: 40px;
+    --whyus-iconsize: 3rem;
+
+    /* ===========================
+    home getin touch
+    =========================== */
+    --getintouch-height: 500px;
+    --getintouch-overlay: #00000096;
+
+    /* ===========================
+  footer
+    =========================== */
+    --footer-padding: 100px 0;
+
+    /* ===========================
+  contact page
+    =========================== */
+    --contact-grid: 1fr 2fr;
+    --contact-gap: 40px;
+    --contact-address-padding: 40px 20px;
+    --contact-from-grid: 1fr 1fr;
+    --contact-map-height: 500px;
+    --contact-box-padding: 20px;
+
+    /* ===========================
+  about page
+    =========================== */
+    --aboutbgimage-height: 500px;
+    --aboutdetails-gap: 40px;
+
+    /* ===========================
+  properties page
+    =========================== */
+    --property-row-gap: 40px;
+    --property-col-gap: 20px;
+    --property-3column-grid: repeat(2, 1fr);
+    --property-bottom-btn-space: 80px 0 0;
+    --property-gridtoggle-btn: 45px;
+
+    /* ===========================
+  details page
+    =========================== */
+    --details-image: 480px;
+    --details-contentgrid: 1.5fr 1fr;
+    --details-content-padding: 40px 0;
+    --details-agent-image: 80px;
+    --details-map-height: 350px;
+    --details-agent-position: sticky;
+    --details-agent-position-area: 100px;
+    --details-informationgrid: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) and (max-width: 1599.98px) {
+  :root {
+    /* ===========================
+    container
+    =========================== */
+    --container-width: 1152px;
+
+    /* ===========================
+    section
+    =========================== */
+    --section-largepadding: 80px 0;
+    --section-toppadding: 80px 0 0;
+    --section-bottompadding: 0 0 80px;
+
+    /* ===========================
+    button
+    =========================== */
+    --button-height: 50px;
+
+    /* ===========================
+    search & dropdown
+    =========================== */
+    --search-width: var(--container-width);
+    --dropdown-padding: 25px 25px;
+
+    /* ===========================
+    heading cover
+    =========================== */
+    --heading-width: 750px;
+    --heading-bottom-padding: 0 0 40px;
+
+    /* ===========================
+  fontsize
+    =========================== */
+    --very-large-fontsize: 80px;
+    --body-font-size: 20px;
+    --navbar-link-fontsize: 14px;
+    --normal-fontsize: 1rem;
+    --h1-fontsize: 5rem;
+    --h2-fontsize: 4rem;
+    --h3-fontsize: 2.6rem;
+    --h4-fontsize: 1.6rem;
+    --h5-fontsize: 1rem;
+
+    /* ===========================
+    home hero
+    =========================== */
+    --hero-image-height: 600px;
+    --hero-content-padding: 180px 0 50px;
+
+    /* ===========================
+  location Card
+    =========================== */
+    --locationcard-height: 340px;
+    --locationcard-width: 300px;
+    --locationcard-padding: 30px;
+
+    /* ===========================
+  featured Card
+    =========================== */
+    --featuredcard-height: 480px;
+    --featuredcard-radius: 20px;
+    --featuredcard-padding: 30px;
+    --featuredcard-overlay: linear-gradient(#08080521, #080805d5);
+
+    /* ===========================
+  properties Card
+    =========================== */
+    --propertiescard-image-height: 320px;
+    --propertiescard-radius: 20px;
+    --propertiescard-padding: 30px 20px 0;
+    --propertiescard-agentsize: 45px;
+
+    /* ===========================
+    home about
+    =========================== */
+    --about-height: 440px;
+
+    /* ===========================
+    home whyus
+    =========================== */
+    --whyus-column-gap: 40px;
+    --whyus-iconsize: 4rem;
+
+    /* ===========================
+    home getin touch
+    =========================== */
+    --getintouch-height: 600px;
+
+    /* ===========================
+  contact page
+    =========================== */
+    --contact-grid: 1fr 2fr;
+    --contact-gap: 40px;
+    --contact-address-padding: 50px 30px;
+    --contact-from-grid: 1fr 1fr;
+    --contact-map-height: 520px;
+    --contact-box-padding: 30px;
+
+    /* ===========================
+  about page
+    =========================== */
+    --aboutbgimage-height: 520px;
+    --aboutdetails-gap: 40px;
+
+    /* ===========================
+  details page
+    =========================== */
+    --details-image: 450px;
+    --details-contentgrid: 1.5fr 1fr;
+    --details-content-padding: 40px 0;
+    --details-agent-image: 100px;
+    --details-map-height: 350px;
+    --details-agent-position: sticky;
+    --details-agent-position-area: 100px;
+    --details-informationgrid: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1919.98px) {
+  :root {
+    --container-width: 1280px;
+  }
+}
+
+@media (min-width: 1920px) and (max-width: 2559.98px) {
+  :root {
+    --container-width: 1400px;
+  }
+}
+
+@media (min-width: 2560px) {
+  :root {
+    --container-width: 1536px;
+  }
+}

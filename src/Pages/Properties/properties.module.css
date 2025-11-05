@@ -1,0 +1,69 @@
+.propertyGrid {
+  position: relative;
+  display: grid;
+  row-gap: var(--property-row-gap);
+  column-gap: var(--property-col-gap);
+  padding: var(--breadcrumb-padding);
+}
+
+.property3Column {
+  grid-template-columns: var(--property-3column-grid);
+}
+
+.property1Column {
+  grid-template-columns: 1fr;
+}
+
+.loadMoreArea {
+  text-align: center;
+  padding: var(--property-bottom-btn-space);
+}
+
+.gridTypeArea {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 20px;
+}
+
+.gridBtn {
+  position: relative;
+  width: var(--property-gridtoggle-btn);
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 1;
+  flex: none;
+  border-radius: 50px;
+  height: var(--property-gridtoggle-btn);
+  background: var(--gray-background);
+}
+
+.gridBtnActive {
+  color: var(--white-color);
+  background: var(--gold-background);
+}
+
+.resultPropertyCount {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--dark-color);
+  text-transform: uppercase;
+  font-size: var(--normal-fontsize);
+}
+
+.endMessage {
+  position: relative;
+  text-align: center;
+  padding: var(--property-bottom-btn-space);
+}
+
+@media (max-width: 767.98px) {
+  .gridBtn {
+    display: none;
+  }
+}
