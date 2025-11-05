@@ -1,16 +1,46 @@
-# React + Vite
+# AURIA – Luxury Real Estate Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<img width="1920" height="7075" alt="screencapture-auria-luxury-dubai-vercel-app-2025-11-05-23_46_26" src="https://github.com/user-attachments/assets/6c1f224f-2fdf-4112-af5e-5e2af0243519" />
+<img width="1920" height="3836" alt="screencapture-auria-luxury-dubai-vercel-app-properties-2025-11-05-23_47_02" src="https://github.com/user-attachments/assets/fcfd8e7e-a3b7-4e11-b2e9-88147aa18b7b" />
+<img width="1920" height="3860" alt="screencapture-auria-luxury-dubai-vercel-app-properties-2025-11-05-23_47_37" src="https://github.com/user-attachments/assets/5b24e747-e587-47d3-af03-2b80a806b5e3" />
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Live Application:** [https://auria-luxury-dubai.vercel.app/)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Overview
 
-## Expanding the ESLint configuration
+**AURIA** is a **production-grade, responsive luxury real estate platform** built for the **Dubai market**.  
+It features **advanced filtering**, **clean architecture**, and **instant deployment** — all in **under 7 days**.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Core Features
+
+- **Multi-Filter Search Engine**  
+  - Location (Downtown Dubai, Palm Jumeirah, etc.)  
+  - Property Type (Apartment, Villa, Penthouse)  
+  - Transaction Type (Buy / Rent)  
+  - **Price Range** (AED 5M – 10M, etc.)  
+
+- **State Management** via React Context  
+- **Client-Side Routing** with React Router DOM  
+- **URL Parameter Sync** for shareable filters  
+- **Mobile-First Responsive Design**  
+- **404 Error Handling**  
+- **Vercel Edge Deployment** with CI/CD
+
+---
+
+## Technology Stack
+
+| Layer         | Technology                     |
+|---------------|--------------------------------|
+| Framework     | React 18 + Vite                |
+| Routing       | React Router v6                |
+| Styling       | CSS Modules                    |
+| State         | React Context API              |
+| Deployment    | Vercel (Edge Functions)        |
+| Icons         | React Icons                    |
+
